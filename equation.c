@@ -9,12 +9,12 @@
             a != 0
             则结果如下
             delta > 0
-            x1= (-b+sqrt(delta))/(2*a)
-            x2= (-b-sqrt(delta))/(2*a)
+            x1 = (-b + sqrt(delta)) / (2*a)
+            x2 = (-b - sqrt(delta)) / (2*a)
 
             delta == 0
-            x1= (-b)/(2*a)
-            x2= x1
+            x1 = (-b)/(2*a)
+            x2 = x1
 
             delta < 0
             方程无解
@@ -33,10 +33,10 @@ int main(void)
     double x1;
     double x2;
 
-    delta = b*b-4*a*c;
+    delta = b*b - 4*a*c;
 
     //判断
-    if (a==0)
+    if (a == 0)
     {
         printf("该方程不是一元二次方程");
     }
@@ -46,15 +46,15 @@ int main(void)
         //求解
         if (delta > 0)
         {
-            x1= (-b+sqrt(delta))/(2*a);
-            x2= (-b-sqrt(delta))/(2*a);
-            printf("该一元二次方程有两个解,x1=%f,x2=%f\n",x1,x2);
+            x1 = (-b + sqrt(delta)) / (2*a);
+            x2 = (-b - sqrt(delta)) / (2*a);
+            printf("该一元二次方程有两个解,x1 = %f,x2 = %f\n",x1,x2);
         }
         else if (delta == 0)
         {
-            x1= (-b)/(2*a);
-            x2= x1;
-            printf("该一元二次方程有一个唯一解,x1=x2=%f\n",x1);
+            x1 = (-b) / (2*a);
+            x2 = x1;
+            printf("该一元二次方程有一个唯一解,x1 = x2 = %f\n",x1);
         }
         else
         {
