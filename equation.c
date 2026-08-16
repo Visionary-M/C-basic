@@ -1,7 +1,7 @@
 /*
 思路：
     1.目标：实现一元二次方程 ax^2 + bx + c = 0
-    2.变量：a,b,c,delta,x1,x2
+    2.变量：a, b, c, delta, x1, x2
     3.算法：
             a == 0
             该方程不是一元二次方程
@@ -21,7 +21,7 @@
 */
 
 #include <stdio.h>
-#include<math.h>
+#include <math.h>
 
 int main(void)
 {
