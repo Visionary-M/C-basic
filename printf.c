@@ -16,17 +16,23 @@ int main(void)
 
     //字符
     char c;
+
     c = 'A';
+
     printf("c的值为 %c \n",c);
 
     //浮点数
     float f;
+
     f = 12.001234;
+
     printf("f 的值为 %f \n",f);
 
     //双精度数
     double d;
+
     d = 12.001234;
+    
     printf("d 的值为 %le \n",d);
 
     return 0;
