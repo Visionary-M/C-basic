@@ -13,7 +13,7 @@
             x2 = (-b - sqrt(delta)) / (2*a)
 
             delta == 0
-            x1 = (-b)/(2*a)
+            x1 = (-b) / (2*a)
             x2 = x1
 
             delta < 0
