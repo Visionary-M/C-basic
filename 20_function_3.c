@@ -18,7 +18,7 @@ bool is_prime(int val)
 
     for(i=2; i<val; ++i)
     {
-        if(val % i == 0)
+        if(0 == val % i)
             break;
     }
     
